@@ -10,5 +10,5 @@ form.addEventListener('submit', (e) => {
   // BMI formula weight / (height) m2
   const finalResult = w / h;
   // printing result
-  result.innerHTML = finalResult;
+  result.innerHTML = finalResult.toFixed(1);
 });
